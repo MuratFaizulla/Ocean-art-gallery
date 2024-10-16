@@ -40,31 +40,32 @@ const artworkInfo = [
  
   {
     title: "Арт-фестиваль 2024", // image0
-    artist: "Art-фото",
+    artist: "Art photo",
     position: new THREE.Vector3(0, 0, 0),
   },
   {
-    title: "Глубина горизонта взгляд в бесконечность природы", // image1   Глубина горизонта взгляд в бесконечность природы  The depth of the horizon is a look into the infinity of nature
+    title: "Глубина горизонта: взгляд в бесконечность природы", // image1   Глубина горизонта взгляд в бесконечность природы  The depth of the horizon is a look into the infinity of nature
     artist: "Ильясұлы Әмір",
     position: new THREE.Vector3(0, 0, 0),
   },
   {
-    title: "Прощальное сияние дня", // image2  Прошальное сияние дня  The farewell glow of the day
-    artist: "Рустамханова Феруза",
-    position: new THREE.Vector3(0, 0, 0),
-  },
-  {
-    title: "Закатные лучи над минаретами", // image3     Закатные лучи над минаретами   Sunset rays over the minarets
-    artist: "Рустамханова Феруза",
-    position: new THREE.Vector3(0, 0, 0),
-  },
-  {
-    title: "Ғасыр диалогы: Уақыт көкжиегіндегі көзқарас", // image4   A dialogue of centuries, a view through time    Диалог веков взгляд сквозь время  Ғасыр диалогы: Уақыт көкжиегіндегі көзқарас
+    title: "Ғасыр диалогы: Уақыт көкжиегіндегі көзқарас", // image2   A dialogue of centuries, a view through time    Диалог веков взгляд сквозь время  Ғасыр диалогы: Уақыт көкжиегіндегі көзқарас
     artist: "Кертай Жеңіс",
     position: new THREE.Vector3(0, 0, 0),
   },
   {
-    title: "Городской пейзаж ", // image5  Городской пейзаж   Urban landscape
+    title: "Sunset rays over minarets", // image3     Закатные лучи над минаретами   Sunset rays over the minarets
+    artist: "Рустамханова Феруза",
+    position: new THREE.Vector3(0, 0, 0),
+  },
+ 
+  {
+    title: "Прощальное сияние дня", // image4  Прошальное сияние дня  The farewell glow of the day
+    artist: "Рустамханова Феруза",
+    position: new THREE.Vector3(0, 0, 0),
+  },
+  {
+    title: "Кешкі шаһар тынысы ", // image5  Городской пейзаж   Urban landscape
     artist: "Рустамханова Феруза",
     position: new THREE.Vector3(0, 0, 0),
   },
