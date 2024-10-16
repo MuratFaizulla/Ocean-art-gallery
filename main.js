@@ -59,7 +59,7 @@ const artworkInfo = [
     position: new THREE.Vector3(0, 0, 0),
   },
   {
-    title: "Диалог веков взгляд сквозь время", // image4   A dialogue of centuries, a view through time    Диалог веков взгляд сквозь время
+    title: "Ғасыр диалогы: Уақыт көкжиегіндегі көзқарас", // image4   A dialogue of centuries, a view through time    Диалог веков взгляд сквозь время  Ғасыр диалогы: Уақыт көкжиегіндегі көзқарас
     artist: "Кертай Жеңіс",
     position: new THREE.Vector3(0, 0, 0),
   },
@@ -535,7 +535,7 @@ function createArtworkText() {
   console.log("createArtworkText function called");
   const loader = new FontLoader();
   loader.load(
-    "/Roboto_Italic (1).json", //helvetiker_regular.typeface.json
+    "/IBM Plex Sans_Italic.json", //helvetiker_regular.typeface.json  Roboto_Italic (1).json
     function (font) {
       console.log("Font loaded successfully");
       artworkInfo.forEach((artwork, index) => {
@@ -544,7 +544,7 @@ function createArtworkText() {
           // Create separate geometries for title and artist
           const titleGeometry = new TextGeometry(artwork.title, {
             font: font,
-            size: 1.5,
+            size: 1.8,
             height: 0.1,
             curveSegments: 12,
             bevelEnabled: false,
@@ -561,7 +561,7 @@ function createArtworkText() {
 
           titleMesh.position.set(
             textRadius * Math.cos(angle),
-            textHeight + 1,
+            textHeight + 1.5,
             textRadius * Math.sin(angle)
           );
 
@@ -574,7 +574,7 @@ function createArtworkText() {
           if (artwork.artist) {
             const artistGeometry = new TextGeometry(artwork.artist, {
               font: font,
-              size: 1,
+              size: 1.2,
               height: 0.1,
               curveSegments: 12,
               bevelEnabled: false,
