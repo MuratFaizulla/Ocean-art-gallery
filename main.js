@@ -37,9 +37,10 @@ const canvasYPosition = 25;
 const circleRadius = 90;
 
 const artworkInfo = [
+ 
   {
-    title: "Диалог веков взгляд сквозь время", // image0   A dialogue of centuries, a view through time    Диалог веков взгляд сквозь время
-    artist: "Кертай Жеңіс",
+    title: "Арт-фестиваль 2024", // image0
+    artist: "Art-фото",
     position: new THREE.Vector3(0, 0, 0),
   },
   {
@@ -58,8 +59,8 @@ const artworkInfo = [
     position: new THREE.Vector3(0, 0, 0),
   },
   {
-    title: "Вот тут нужно довабить еще одну картину тогда будет выглидет красиво как шестеренок", // image4
-    artist: "Valentina Piraneque Ortiz",
+    title: "Диалог веков взгляд сквозь время", // image4   A dialogue of centuries, a view through time    Диалог веков взгляд сквозь время
+    artist: "Кертай Жеңіс",
     position: new THREE.Vector3(0, 0, 0),
   },
   {
