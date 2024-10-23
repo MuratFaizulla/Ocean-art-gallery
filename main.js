@@ -45,7 +45,7 @@ const artworkInfo = [
   },
   {
     title: "Глубина горизонта: взгляд в бесконечность природы", // image1   Глубина горизонта взгляд в бесконечность природы  The depth of the horizon is a look into the infinity of nature
-    artist: "Ильясұлы Әмір",
+    artist: "Кертай Жеңіс",
     position: new THREE.Vector3(0, 0, 0),
   },
   {
